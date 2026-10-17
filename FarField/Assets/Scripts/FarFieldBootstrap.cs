@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
-/// <summary>Builds the complete FARFIELD Milestone 1 prototype at runtime when attached to a scene object.</summary>
+/// <summary>Builds scenery explicitly and initializes gameplay separately when Play starts.</summary>
 public sealed class FarFieldBootstrap : MonoBehaviour
 {
     private const int TerrainGridCells = 144;
@@ -24,6 +24,29 @@ public sealed class FarFieldBootstrap : MonoBehaviour
     private const float InitialPlayerHeightMeters = 0.08f;
 
     [SerializeField] private bool buildOnStart = true;
+
+    [SerializeField] private FarFieldGeneratedWorld savedWorld;
+    public FarFieldGeneratedWorld SavedWorld => savedWorld;
+    private readonly System.Collections.Generic.List<Object> runtimeResources = new System.Collections.Generic.List<Object>();
+#if UNITY_EDITOR
+    private readonly System.Collections.Generic.List<Object> editorResources = new System.Collections.Generic.List<Object>();
+
+    // Explicit build completion/failure only; never called by editor refresh callbacks.
+    public void FinishEditorGeneration()
+    {
+        foreach (Object resource in editorResources)
+            if (resource != null && !UnityEditor.EditorUtility.IsPersistent(resource)) DestroyImmediate(resource);
+        editorResources.Clear();
+    }
+#endif
+
+    private void TrackResource(Object resource)
+    {
+        if (Application.isPlaying) runtimeResources.Add(resource);
+#if UNITY_EDITOR
+        else editorResources.Add(resource);
+#endif
+    }
 
     private Transform generatedRoot;
     private bool worldBuilt;
@@ -64,35 +87,57 @@ public sealed class FarFieldBootstrap : MonoBehaviour
         }
     }
 
-    /// <summary>Creates the runtime terrain, observatory facility, dishes, console, player, and lighting systems once.</summary>
+    /// <summary>Reuses saved scenery (or builds a fallback) and starts gameplay once, in Play mode only.</summary>
     public void BuildWorld()
     {
-        if (worldBuilt)
-        {
-            return;
-        }
-
+        if (!Application.isPlaying || worldBuilt) return;
         worldBuilt = true;
+        if (savedWorld == null) savedWorld = CreateScenery();
+        generatedRoot = savedWorld.transform;
         DisableStarterCamerasAndDirectionalLights();
-        CreateMaterials();
-
-        GameObject rootObject = new GameObject("FARFIELD Runtime World");
-        generatedRoot = rootObject.transform;
-        generatedRoot.SetParent(transform, false);
-        generatedRoot.localPosition = Vector3.zero;
-        generatedRoot.localRotation = Quaternion.identity;
-        generatedRoot.localScale = Vector3.one;
-
-        BuildTerrainAndServiceRoad();
-        BuildFacilityPadsAndMarkings();
-        BuildControlRoom();
-        BuildAuxiliaryStructures();
-        BuildFacilityOperationsYard();
-        DishController dishController = BuildRadioDish(new Vector3(5f, TerrainHeight(5f, 14f), 14f), MainDishRadiusMeters, "Primary Array", 190f, 31f, true);
-        BuildRemoteDishArrays();
-        BuildConsole(dishController);
-        BuildExteriorLighting();
         BuildPlayerAndSky();
+    }
+
+    // Called only by an explicit editor command or the runtime fallback.
+    public FarFieldGeneratedWorld CreateScenery()
+    {
+        GameObject rootObject = new GameObject("FARFIELD Generated World");
+        UnityEngine.SceneManagement.SceneManager.MoveGameObjectToScene(rootObject, gameObject.scene);
+        generatedRoot = rootObject.transform;
+        // Keep metre-based geometry independent of the bootstrap's transform/scale.
+        FarFieldGeneratedWorld world = rootObject.AddComponent<FarFieldGeneratedWorld>();
+        world.Owner = this;
+        try
+        {
+            CreateMaterials();
+            BuildTerrainAndServiceRoad();
+            BuildFacilityPadsAndMarkings();
+            BuildControlRoom();
+            BuildAuxiliaryStructures();
+            BuildFacilityOperationsYard();
+            DishController dishController = BuildRadioDish(new Vector3(5f, TerrainHeight(5f, 14f), 14f), MainDishRadiusMeters, "Primary Array", 190f, 31f, true);
+            BuildRemoteDishArrays();
+            BuildConsole(dishController);
+            BuildExteriorLighting();
+            return world;
+        }
+        catch
+        {
+            if (Application.isPlaying) Destroy(rootObject);
+            else DestroyImmediate(rootObject);
+#if UNITY_EDITOR
+            if (!Application.isPlaying) FinishEditorGeneration();
+#endif
+            throw;
+        }
+    }
+
+    public void SetSavedWorld(FarFieldGeneratedWorld world) => savedWorld = world;
+
+    private void OnDestroy()
+    {
+        foreach (Object resource in runtimeResources)
+            if (resource != null) Destroy(resource);
     }
 
     private void DisableStarterCamerasAndDirectionalLights()
@@ -180,6 +225,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
             material.SetColor("_EmissionColor", emission);
         }
 
+        TrackResource(material);
         return material;
     }
 
@@ -445,7 +491,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
     private static void AccumulateTerrainFlattening(float x, float z, float centerX, float centerZ, float radius, ref float weightTotal, ref float heightTotal)
     {
         float distance = Vector2.Distance(new Vector2(x, z), new Vector2(centerX, centerZ));
-        float weight = 1f - Mathf.SmoothStep(radius, radius + 42f, distance);
+        float weight = 1f - Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(radius, radius + 42f, distance));
         if (weight <= 0f)
         {
             return;
@@ -465,7 +511,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
             + GaussianHill(x, z, 30f, 420f, 30f, 120f)
             + GaussianHill(x, z, -30f, -465f, 23f, 108f)
             + GaussianHill(x, z, 430f, 420f, 20f, 95f);
-        float edgeRise = Mathf.SmoothStep(410f, 590f, Mathf.Max(Mathf.Abs(x), Mathf.Abs(z))) * 12f;
+        float edgeRise = Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(410f, 590f, Mathf.Max(Mathf.Abs(x), Mathf.Abs(z)))) * 12f;
         return broadHills + rollingRidges + fineTerrain + distantHills + edgeRise;
     }
 
@@ -600,7 +646,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
             float dishRadius = RemoteDishRadiiMeters[siteIndex];
             BuildRemoteArrayFacility(stationCenter, stationName);
             DishController remoteDish = BuildRadioDish(stationCenter, dishRadius, stationName + " Radio Telescope", 35f + siteIndex * 83f, 24f + siteIndex * 5f, false);
-            remoteDish.ToggleScan();
+            remoteDish.ScanOnStart = true;
         }
     }
 
@@ -749,7 +795,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
         CreatePrimitive("Console Status Lamp", PrimitiveType.Sphere, generatedRoot, new Vector3(buildingX + 1.02f, 1.4f, buildingZ + 0.89f), new Vector3(0.14f, 0.14f, 0.14f), emissiveAmberMaterial, false);
 
         ConsoleOperator consoleOperator = screenObject.AddComponent<ConsoleOperator>();
-        consoleOperator.Initialize(dishController);
+        consoleOperator.ConnectDish(dishController);
     }
 
     private void BuildExteriorLighting()
@@ -870,6 +916,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
         {
             material.SetInt("_Cull", (int)CullMode.Off);
         }
+        TrackResource(material);
         return material;
     }
 
@@ -938,7 +985,8 @@ public sealed class FarFieldBootstrap : MonoBehaviour
             Collider primitiveCollider = primitive.GetComponent<Collider>();
             if (primitiveCollider != null)
             {
-                Destroy(primitiveCollider);
+                if (Application.isPlaying) Destroy(primitiveCollider);
+                else DestroyImmediate(primitiveCollider);
             }
         }
 
@@ -947,6 +995,7 @@ public sealed class FarFieldBootstrap : MonoBehaviour
 
     private GameObject CreateMeshObject(string objectName, Transform parent, Vector3 localPosition, Mesh mesh, Material material, bool addMeshCollider)
     {
+        TrackResource(mesh);
         GameObject meshObject = new GameObject(objectName);
         meshObject.transform.SetParent(parent, false);
         meshObject.transform.localPosition = localPosition;

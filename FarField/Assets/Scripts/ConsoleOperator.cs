@@ -133,7 +133,7 @@ public sealed class ConsoleOperator : MonoBehaviour
     private readonly List<FieldNote> fieldNotebook = new List<FieldNote>();
     private readonly float[] spectrumSamples = new float[SpectrumBinCount];
 
-    private DishController dishController;
+    [SerializeField] private DishController dishController;
     private TextMesh screenReadout;
     private bool isOperating;
     private bool notebookVisible;
@@ -215,12 +215,19 @@ public sealed class ConsoleOperator : MonoBehaviour
         SaveNotebook();
     }
 
+    public void ConnectDish(DishController dish) => dishController = dish;
+
+    private void Start()
+    {
+        if (dishController != null) Initialize(dishController);
+    }
+
     /// <summary>Connects the console to its dish and creates its visible screen readout.</summary>
     public void Initialize(DishController generatedDish)
     {
         EnsureNotebookLoaded();
         dishController = generatedDish;
-        CreateScreenReadout();
+        if (screenReadout == null) CreateScreenReadout();
         UpdateMeasurement();
         RefreshReadout();
     }

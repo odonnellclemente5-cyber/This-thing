@@ -13,16 +13,29 @@ public sealed class DishController : MonoBehaviour
     private const float ScanCyclesPerSecond = 0.04f;
     private const float SettledAngleToleranceDegrees = 0.18f;
 
-    private Transform azimuthPivot;
-    private Transform elevationPivot;
-    private float azimuthDegrees;
+    [SerializeField] private Transform azimuthPivot;
+    [SerializeField] private Transform elevationPivot;
+    [SerializeField] private float azimuthDegrees;
     private float targetAzimuthDegrees;
-    private float elevationDegrees;
+    [SerializeField] private float elevationDegrees;
     private float targetElevationDegrees;
     private float azimuthInput;
     private float elevationInput;
     private float scanOriginDegrees;
     private bool scanning;
+
+    [field: SerializeField] public bool ScanOnStart { get; set; }
+
+    private void Start()
+    {
+        // Read the saved pivots so manual Scene-view orientation edits survive Play.
+        if (azimuthPivot != null) azimuthDegrees = azimuthPivot.localEulerAngles.y;
+        if (elevationPivot != null) elevationDegrees = Mathf.Clamp(
+            -Mathf.DeltaAngle(0f, elevationPivot.localEulerAngles.x), MinimumElevationDegrees, MaximumElevationDegrees);
+        targetAzimuthDegrees = azimuthDegrees;
+        targetElevationDegrees = elevationDegrees;
+        if (ScanOnStart) ToggleScan();
+    }
 
     /// <summary>Current physical dish azimuth in degrees.</summary>
     public float AzimuthDegrees => azimuthDegrees;
