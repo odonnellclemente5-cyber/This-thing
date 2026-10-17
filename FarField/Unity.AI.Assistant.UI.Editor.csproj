@@ -1,0 +1,1828 @@
+﻿<Project>
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+    <ProjectCapability Include="EnableOnDemandExcludedFolderLoading" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace>Unity.AI.Assistant.UI.Editor</RootNamespace>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Unity.AI.Assistant.UI.Editor</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_6_6;UNITY_6000_6;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;UNITY_6000_4_OR_NEWER;UNITY_6000_5_OR_NEWER;UNITY_6000_6_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS_MANAGED;ENABLE_AR;ENABLE_AUDIO;ENABLE_AUDIO_SCRIPTABLE_PIPELINE;ENABLE_BURST;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY_SCREEN_READER;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;INCLUDE_UNIFIED_RAYTRACING_COMPUTE_BACKEND;INCLUDE_UNIFIED_RAYTRACING_HARDWARE_BACKEND;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;UNITY_SUPPORTS_GRAPHICS_API_VALIDATION;PLATFORM_USES_VULKAN_OLD_SWAPCHAIN;USE_READ_ASYNC_MANAGED_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;UNITY_INCLUDE_INSTRUMENTATION;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_ENABLE_CHECKS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.28</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>6000.6.6f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>C:\Users\tytyi\Downloads\UnityGames\FarField\Library\ImmutablePackage.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Users\tytyi\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Tools\BuildPipeline\Unity.Analyzers.Common\Unity.Analyzers.Common.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Tools\BuildPipeline\Unity.Analyzers.LongLiving\Unity.Analyzers.LongLiving.dll" />
+    <Analyzer Include="C:\Users\tytyi\Downloads\UnityGames\FarField\Library\PackageCache\com.unity.ai.inference@9a123aee5df7\Runtime\Core\SourceGenerator\SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\FunctionCallBaseElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantTextField.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\CheckpointAffectedFileRow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementTodoList.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatScrollModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\EnumDef.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\CheckpointConfirmationDialog.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\LineNumberController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\EditPlanFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ItemHeightModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\PopupTracker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\ValidateUIAssetFunctionCallElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantUIContext.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\RetryInteractionContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\Gateway\ProviderEnvironmentariablesUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\TodoProgressInteractionElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\MCPClient\McpServerManagerView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\ReflectionAttributeProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\ChatMarkdownRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\Gateway\GatewayProjectSettingsPage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\UIPreviewContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\History\HistoryPanel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\CodeInlineBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatHeightChangeExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\ValidateUIAssetFunctionCallElementBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantProjectSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\UserInteractionQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\IAssistantUIContextAware.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\EarlyAccessPromoBanner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Permissions\DiffPermissionContentRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantBlackboard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ModeProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventRetryableErrorOccurred.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantTextField.Context.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\AssistantProjectSettingsPage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\FindProjectAssetsFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationReloadManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\PlanApprovalFooterContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\SkillWarningBox.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockPlan.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\LiteralInlineRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\SubagentHeaderElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\LinkInlineRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantDropdownEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantDropdown.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockAcpToolCall.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\DisplayItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatScrollSurface.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\InlineUSSProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\GetProjectSettingFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementFeedback.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\StyleValueParsers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\CodeEditTabbedContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PlanPromptBanner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AskAssistantButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\AskUserInteractionElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\SettingsPopup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\UserInteractionBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\MarkupUtil.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\CodeSyntaxHighlight.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\CapacityFallbackPolicy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\IChatHeightChangeHost.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\UIPreviewSystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantTextField.Dropdowns.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\ConfigureCheckpointSettingsView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\ExecutionLogFormatter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\RunReadOnlyCommandFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatItemChrome.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\AssistantSkillsSettingsView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventExpandedPanelOpened.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\LogUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\IContextReferenceVisualElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\CodeEditFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\CacheUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\HtmlInlineRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\ListItemBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\FunctionCallParameterFormatter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\WhatsNew\WhatsNewBanner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockError.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\CheckpointConfirmationDialogWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\StringUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ManagedScrollView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatSlotPool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\History\HistoryPanelConversationEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\CodeBlockElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockThought.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\IInlineHeaderActionsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ContentKeyBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatConversationView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationSearch\SearchHighlighter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\SelectionPopup.KeyboardNavigation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\GameObjectFunctionCallElements.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\GetTextAssetContentFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementCheckpoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\LoadingSpinner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ContextUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptHistoryNavigator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\USSParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\History\HistoryPanelHeaderEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\InternalLogUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\FunctionCallBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\ConfigureDefaultPermissionsView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\AssistantUISettingsPage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\TableRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementTable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Permissions\PermissionInteraction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\CheckpointDiscoveryBanner.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantUIAPIInterpreter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\AcpWidgetRendererFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementList.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptSuggestions\PromptSuggestionsBarBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatScrollPosition.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Container\AssistantWindowUiContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\MessageUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserAttentionNotifier.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\FencedCodeBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\CodeLineMarkingType.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatGroupFooter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\PlanReviewHeaderActions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementUser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\NewSkillsNotificationPanel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\History\HistoryPanelEntryWrapper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventInlineInteractionCompleted.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\ParagraphRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ResponseFeedbackQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptSuggestions\NewChatTopicBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\IdentityIndex.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\UserInteractionEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\AcpToolCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationSearch\AssistantSearchMessageConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\SlotLayout.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\CommandDisplayTemplate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Permissions\PermissionContentRendererRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventExpandedPanelClosed.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\EnterPlanModeFooterContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\FindSceneObjectsFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementSourceEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\AcpCodeEditRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptPopup\SendPromptButton.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\LineBreakInlineRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatItemPins.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockRevertedMessagesLink.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\AcpToolCallRendererFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationSearch\ConversationSearcher.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\ExitPlanModeInteractionElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\ColorParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptSuggestions\PromptSuggestionData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConsoleUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockMarkdown.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ViewCache.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\Gateway\EnvironmentVariableRow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\QuoteBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\ApprovalInteractionContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\SelectionPopup.Tabs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\VisualElementExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\AssistantSettingsPage.AssetKnowledge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventExpandedPanelCloseRequested.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\SelectionPopup.Search.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\UXLoader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\ElementTypeRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventInlineInteractionPushed.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ImageUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatItemRealizer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\TodoTaskRow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\GatewayProjectSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ExecutionLogUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\ChatLinkInlineParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ScreenshotOpenerService.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementResponseSection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AcpInstallDialogWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatItemBinder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptPopup\PromptPopupView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\SelectionElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\ChatElementFunctionCallFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\AskUserQuestionPane.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\StyleTypeConverters.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Annotations\MacCgCapture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Container\DialogView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\SkillsSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\FunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\SkillFolderRow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatSlotMeasurer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\IAssistantHostWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\IExpandableRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ContextUsageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\FencedContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\UXMLParser.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\AssistantSettingsPage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\AcpPlanBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\INavigableInteractionView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantExpandedPanel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\Gateway\GatewayPreferencesPage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventHistoryConversationSelected.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptSuggestions\PromptSuggestionsBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\StyleCache.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\InteractionContentView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\FunctionCallUIPreviewHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\MarkdownAPI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PreviewChip.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ConversationFlattener.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\PromptPopup\PromptPopupWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ImeCompositionErrorWorkaround.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Annotations\NativeScreenCapture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\SettingsProviderSearchHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\GetObjectDataFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementQuote.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\AskUserOtherRow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\PromptBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\VirtualizedListView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\MCPClient\McpToolItemView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ArrayUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\AssistantDropdownItemData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ToolkitExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\ObjectRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\WhatsNewMenuLink.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\RunCommandFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementCommandCodeBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ISearchRevealable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\ConversationModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\PlanReviewExpandedContent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Permissions\MarkdownPermissionContentRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventInteractionQueueChanged.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\SessionStateJsonCache.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\AcpToolCallBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ItemRange.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\IChatMessageView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\AssistantImage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantUIConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventResubmitPrompt.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Annotations\WindowsGdiCapture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ManagedTemplate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ContextAttachmentElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantConversationPanel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ItemAnchor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\HtmlEntityInlineRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationSearch\ConversationSearchResult.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\CompletedActionsSection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventExpandedViewRequested.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\GatewayPreferencesProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Settings\SkillDetailsBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ProgressElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\UserInteractionId.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Interactions\AskUserOptionRow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\TimerUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ManagedListEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\IMessageBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\EmphasisInlineRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockAnswer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\ParsedReference.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\ScreenshotFunctionCallElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantView.DragDrop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\SelectionPopup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\AnswerBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\CompletedActionData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ConversationSearch\AssistantViewSearchHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventRevertedTimeStampFilterRequested.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ContextMenuUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\CumulativeHeightTree.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Annotations\EditScreenCaptureWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ContextElement.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Annotations\AnnotationToolbarOverlay.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\ListBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\McpClientSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatViewStateStore.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\AcpRunCommandRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\CompletedActionsExtractor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockFunctionCall.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementBlockCheckpoint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\CompletedActionEntry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageModelRole.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\ChatSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\MCPClient\McpServerEntryView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Virtualization\IItemHeights.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventRestoreUnsentPrompt.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\InfoBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Preview\PreviewConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\HeadingBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Utils\ErrorHandlingUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Container\DialogWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\SpawnSubagentFunctionCallRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\AssistantView.Context.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\ContextVisualElementRegistry.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Markup\Renderers\ThematicBreakBlockRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ContextDropdown.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\ChatElementBlock\ChatElementReasoningSequence.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\AssistantUISessionState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\ImagePreviewFunctionCallElementBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\FigmaAuthBar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Container\DialogToolUiContainer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\ErrorBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatDropZone.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Events\EventCapacityReached.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Permissions\IPermissionContentRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\UserInteraction\ApprovalRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Data\MessageBlocks\ThoughtBlockModel.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\ChatElements\FunctionCall\Permissions\EditorToolPermissions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\MCPClient\McpClientSettingsView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\AssistantUISettingsProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AgentPlanPanel.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantSharedLight.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\UserInteractionBar.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CheckpointDiscoveryBanner.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AskAssistantButton.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\GatewayPreferencesPage.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PromptSuggestionsBar.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PreviewChip.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockInfo.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockRevertedMessagesLink.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatScrollSurface.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\McpServerEntryView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ContextDropdown.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockThought.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SubagentHeaderElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SelectionPopup.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\McpToolItemView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\NewSkillsNotificationPanel.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementResponseSection.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantDropdownEntry.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockError.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementSystem.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PlanReviewHeaderActions.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockAcpToolCall.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantConversationPanel.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\EarlyAccessPromoBanner.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SkillFolderRow.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockAnswer.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantSettingsPage.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\McpClientSettingsView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CompletedActionEntry.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\TodoProgressInteractionElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\HistoryPanelEntryWrapper.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockFunctionCall.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Unity.AI.Assistant.UI.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockPlan.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\McpServerManagerView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\HistoryPanelHeaderEntry.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementUser.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementSourceEntry.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SelectionPopup.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PromptPopupView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantDropdown.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ContextElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\GatewayPreferencesPage.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CompletedActionEntry.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CodeEditFunctionCallElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\WhatsNewBanner.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\FunctionCallBaseElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ContextAttachmentElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementReasoningSequence.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementSystem.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\RetryInteractionContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SendPromptButton.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantSharedDark.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SendPromptButton.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SkillDetailsBlock.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\RunCommandFunctionCallElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\McpClientSettingsView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SubagentHeaderElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AskUserInteractionElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SelectionElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CodeBlockElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementFeedback.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PromptPopupView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatDropZone.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AnnotationToolbarOverlay.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockRevertedMessagesLink.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AskUserInteractionElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\EditScreenCaptureWindow.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\FigmaAuthBar.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementCheckpoint.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CheckpointConfirmationDialog.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SkillWarningBox.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PlanPromptBanner.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\HistoryPanel.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\RunCommandFunctionCallElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantDropdown.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SkillWarningBox.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockCheckpoint.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AskUserOptionRow.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PlanReviewHeaderActions.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementTable.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementReasoningSequence.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\McpServerEntryView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\EnterPlanModeFooterContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AnnotationToolbarOverlay.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementQuote.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\UserInteractionBar.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\McpToolItemView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ContextDropdown.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\NewSkillsNotificationPanel.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementCommandCodeBlock.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\HistoryPanelConversationEntry.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\McpServerManagerView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantSettingsPage.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ExitPlanModeInteractionElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockAcpToolCall.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockThought.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantSkillsSettingsView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SkillDetailsBlock.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\EarlyAccessPromoBanner.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementUser.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ContextElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantProjectSettingsPage.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\TodoProgressInteractionElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AskAssistantButton.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SkillFolderRow.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ProgressElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockError.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\GatewayProjectSettingsPage.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\FunctionCallShared.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ScreenshotFunctionCallElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementQuote.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CheckpointAffectedFileRow.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PreviewChip.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementResponse.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CheckpointAffectedFileRow.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CodeEditTabbedContent.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantSkillsSettingsView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantTextField.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ContextUsageView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ExitPlanModeInteractionElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CodeEditTabbedContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PromptSuggestionsBar.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockPlan.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\LoadingSpinner.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ProviderEnvironmentariablesUI.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\DialogView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantExpandedPanel.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AcpInstallDialogView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\TodoTaskRow.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantUISettingsPage.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementSourceEntry.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementList.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CheckpointConfirmationDialog.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\HistoryPanelHeaderEntry.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AskUserQuestionPane.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ConfigureCheckpointSettingsView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementUI.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\FunctionCallBaseElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CompletedActionsSection.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementTable.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PlanPromptBanner.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SelectionElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Scripts\Components\Annotations\ImageCompositing.shader" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\DialogView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\HistoryPanelConversationEntry.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ProgressElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PlanReviewExpandedContent.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\PlanApprovalFooterContent.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatDropZone.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\SettingsPopup.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\SettingsPopup.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ConfigureCheckpointSettingsView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\HistoryPanel.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementFeedback.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementCommandCodeBlock.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CompletedActionsSection.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PlanApprovalFooterContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ApprovalInteractionContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\GatewayProjectSettingsPage.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ConfigureDefaultPermissionsView.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantShared.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ApprovalInteractionContent.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantDropdownEntry.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\QuestionInteractionElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementCheckpoint.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantUISettingsPage.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CodeEditFunctionCallElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementShared.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\WhatsNewBanner.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantDisclaimer.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\HistoryPanelEntryWrapper.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\NewChatTopicBar.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\PlanReviewExpandedContent.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\AssistantProjectSettingsPage.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementList.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\CodeBlockElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ConfigureDefaultPermissionsView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\CheckpointDiscoveryBanner.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ContextUsageView.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\FigmaAuthBar.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementUI.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\RetryInteractionContent.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockCheckpoint.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantTextField.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantConversationPanel.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementBlockFunctionCall.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AssistantExpandedPanel.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ChatElementResponseSection.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Views\ChatElementBlockInfo.uxml" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\ContextAttachmentElement.uss" />
+    <None Include="Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Editor\UI\Styles\AcpInstallDialogView.uss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Scripting">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\Bootstrap\Unity.Scripting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AMDModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AMDModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.BurstModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.BurstModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.IdentifiersModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InsightsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.InsightsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ManagedKernelModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ManagedKernelModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MathematicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.MathematicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsBackendPhysXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsBackendPhysXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsCore2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsCore2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RenderAs2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.RenderAs2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScriptingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScriptingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TetgenModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TetgenModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineFoundationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.TimelineFoundationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.U2DRuntimeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.U2DRuntimeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConsentModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VectorGraphicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.VectorGraphicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AnimationWindowModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.AnimationWindowModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AssetComplianceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.AssetComplianceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildAnalysisModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildAnalysisModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BurstModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.BurstModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GenericRemoteModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GenericRemoteModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphToolkitModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphToolkitModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.HierarchyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.HierarchyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LightingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.LightingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MathematicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.MathematicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MediaModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.MediaModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsCore2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsCore2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PlayModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.PlayModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ProjectAuditorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ProjectAuditorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickInstallModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickInstallModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderBuildSettingsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderBuildSettingsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderCompilationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderCompilationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderPreprocessorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderPreprocessorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SyntaxTreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.SyntaxTreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TimelineFoundationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TimelineFoundationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.U2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.U2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIToolkitAuthoringModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIToolkitAuthoringModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VectorGraphicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.VectorGraphicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@0198eae3b53e\net472\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp_AIA">
+      <HintPath>Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Plugins\CodeAnalysis\6_5\Microsoft.CodeAnalysis.CSharp_AIA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis_AIA">
+      <HintPath>Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Plugins\CodeAnalysis\6_5\Microsoft.CodeAnalysis_AIA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Markdig_AIA">
+      <HintPath>Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Plugins\Markdig\Markdig_AIA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe_AIA">
+      <HintPath>Library\PackageCache\com.unity.ai.assistant@1b11b9bfd84a\Plugins\Shared\System.Runtime.CompilerServices.Unsafe_AIA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Apple.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.Apple.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.Collections.Immutable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.Reflection.Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.Text.Encodings.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\ref\System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.AI.Assistant.Editor.csproj" />
+    <ProjectReference Include="Unity.AI.Assistant.Bridge.Editor.csproj" />
+    <ProjectReference Include="Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Accounts.csproj" />
+    <ProjectReference Include="Unity.AI.Assistant.Runtime.csproj" />
+    <ProjectReference Include="Unity.AI.Assistant.Tools.Editor.csproj" />
+    <ProjectReference Include="Unity.AI.Assistant.Annotations.Editor.csproj" />
+    <ProjectReference Include="Unity.AI.Tracing.csproj" />
+    <ProjectReference Include="Unity.AI.Toolkit.Async.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEditor.TestRunner.csproj" />
+    <ProjectReference Include="UnityEngine.TestRunner.csproj" />
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>
